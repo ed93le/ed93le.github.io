@@ -1,3 +1,3 @@
-# webpage-ed
-my personal webpage 
-tutorials
+# ed-website
+my personal website
+
