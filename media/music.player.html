@@ -7,28 +7,22 @@
         <meta name="keyboards" content="HTML, CSS, tutorials, bloging" />
         <meta name="author" content="ed93le" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" type="text/css" href="../css/style.css" />
+        <link rel="stylesheet" type="text/css" href="./css/style.css" />
         <style>
 
-            h2
-            {
-                color: blue;
-                text-align: center;
-            }
-
-            iframe
-            {
-                /* 720 pixel body minus 560 pixel iframe width divided by 2 */
-                margin-left: 80px;
-                border: 0px;
-            }
+            img{
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 100%;
+                }
 
         </style>
     </head>
 
     <body>
         <header>
-            <h1><a class="header-link" href="../index.html">ED93LE</a></h1>
+            <h1><a class="header-link" href="./index.html">ED93LE</a></h1>
                 <nav>
                     <div class="nav">
                         <a class="nav-link" href="./books">Books</a>
@@ -38,17 +32,14 @@
                         <a class="nav-link" href="./about/about.html">About</a>
                     </div>
                 </nav>
-        </header>
-
-        
-        <audio controls>
-            <source src="./i.think.i.like.when.it.rains.mp3" type="audio/mpeg">
-        </audio>
-
-
-        <footer>
-            &copy; 2025, ED93LE
-        </footer>
-    </body>
+        </header>         
+<body>
+  <div class="player">
+    <h2>Simple Music Player</h2>
+    <audio id="audioPlayer" controls>
+      <source src="/home/ed/ed93le/media/music/*.mp3" type="audio/mp3">
+    </audio>
+  </div>
+</body>
 </html>
 
